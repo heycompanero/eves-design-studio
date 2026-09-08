@@ -1,8 +1,9 @@
 import type { PageCopy } from "@/lib/i18n";
 import Reveal from "./Reveal";
 import { asset } from "@/lib/asset";
+import type { Ornaments } from "@/lib/ornaments";
 
-export default function About({ c }: { c: PageCopy }) {
+export default function About({ c, orn }: { c: PageCopy; orn: Ornaments }) {
   const a = c.about;
 
   return (
@@ -19,10 +20,10 @@ export default function About({ c }: { c: PageCopy }) {
               />
             </div>
             <img
-              src={asset(c.ornaments.about)}
+              src={asset(orn.about)}
               alt=""
               aria-hidden="true"
-              className="absolute -bottom-6 -right-4 w-[24%] max-w-[96px] animate-float"
+              className="absolute -bottom-6 -right-4 max-h-[112px] w-auto max-w-[24%] animate-float"
             />
           </div>
         </Reveal>

@@ -1,7 +1,8 @@
 import type { PageCopy } from "@/lib/i18n";
 import { asset } from "@/lib/asset";
+import type { Ornaments } from "@/lib/ornaments";
 
-export default function Hero({ c }: { c: PageCopy }) {
+export default function Hero({ c, orn }: { c: PageCopy; orn: Ornaments }) {
   const h = c.hero;
 
   return (
@@ -41,14 +42,14 @@ export default function Hero({ c }: { c: PageCopy }) {
           </div>
 
           <img
-            src={asset(c.ornaments.heroMain)}
+            src={asset(orn.heroMain)}
             alt=""
             aria-hidden="true"
             className="absolute -bottom-12 left-0 w-[34%] max-w-[168px] drop-shadow-[0_18px_28px_rgba(108,53,35,0.14)] sm:-left-10 lg:-left-16"
           />
 
           <img
-            src={asset(c.ornaments.heroFloat)}
+            src={asset(orn.heroFloat)}
             alt=""
             aria-hidden="true"
             className="absolute -right-2 top-6 max-h-[150px] w-auto max-w-[22%] animate-float lg:-right-8"

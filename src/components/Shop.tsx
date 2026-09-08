@@ -4,9 +4,11 @@ import { asset } from "@/lib/asset";
 
 type ShopCopy = (typeof copy)["nl"]["wedding"]["shop"];
 
+// Reserved for this section: kept out of the ornament pools in lib/ornaments.ts
+// so a template card never duplicates a decorative illustration elsewhere.
 const cards = [
-  { img: "/illustraties/lemons.webp", tint: "bg-perzik/30" },
-  { img: "/illustraties/cat.webp", tint: "bg-nude" },
+  { img: "/illustraties/mountains.webp", tint: "bg-perzik/30" },
+  { img: "/illustraties/chateau.webp", tint: "bg-nude" },
   { img: "/illustraties/dinner.webp", tint: "bg-oudrose/25" },
 ];
 

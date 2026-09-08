@@ -82,7 +82,7 @@ export default function Choice() {
                   {p.eyebrow}
                 </span>
 
-                <span className="mt-4 font-display text-[2.4rem] leading-none text-creme drop-shadow-[0_2px_18px_rgba(40,15,8,0.45)] md:text-[3.4rem]">
+                <span className="mt-4 max-w-[11ch] text-balance font-display text-[2rem] leading-[1.08] text-creme drop-shadow-[0_2px_18px_rgba(40,15,8,0.45)] md:text-[2.9rem]">
                   {p.label}
                 </span>
 

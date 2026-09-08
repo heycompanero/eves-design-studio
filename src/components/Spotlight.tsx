@@ -1,8 +1,9 @@
 import type { PageCopy } from "@/lib/i18n";
 import Reveal from "./Reveal";
 import { asset } from "@/lib/asset";
+import type { Ornaments } from "@/lib/ornaments";
 
-export default function Spotlight({ c }: { c: PageCopy }) {
+export default function Spotlight({ c, orn }: { c: PageCopy; orn: Ornaments }) {
   const s = c.spotlight;
 
   return (
@@ -19,13 +20,13 @@ export default function Spotlight({ c }: { c: PageCopy }) {
               />
             </div>
             <img
-              src={asset(c.ornaments.spotA)}
+              src={asset(orn.spotA)}
               alt=""
               aria-hidden="true"
               className="absolute -bottom-10 -right-2 w-[26%] max-w-[140px] drop-shadow-[0_14px_24px_rgba(108,53,35,0.16)] md:-right-8"
             />
             <img
-              src={asset(c.ornaments.spotB)}
+              src={asset(orn.spotB)}
               alt=""
               aria-hidden="true"
               className="absolute -left-4 -top-10 w-[12%] max-w-[62px] md:-left-8"
