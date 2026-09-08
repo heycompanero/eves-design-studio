@@ -66,7 +66,7 @@ export const copy = {
         ctaPrimary: "Bekijk mijn werk",
         ctaHref: "#werk",
         ctaSecondary: "Kennismaking plannen",
-        caption: "Live illustratie op locatie — elk portret in een handvol minuten",
+        caption: "Live illustratie op locatie, elk portret in een handvol minuten",
         img: "/foto/hero-eve.webp",
         imgAlt: "Evelien tekent live aquarelportretten aan haar tekentafel",
       },
@@ -74,7 +74,7 @@ export const copy = {
       services: {
         eyebrow: "Het aanbod",
         title: "Drie manieren om samen te werken",
-        lead: "Van een tekenaar aan uw feest tot drukwerk dat de toon zet — alles met dezelfde hand en dezelfde aandacht.",
+        lead: "Van een tekenaar aan uw feest tot drukwerk dat de toon zet. Alles met dezelfde hand en dezelfde aandacht.",
         items: [
           {
             n: "01",
@@ -87,7 +87,7 @@ export const copy = {
           {
             n: "02",
             title: "Huwelijksdrukwerk",
-            text: "Bespoke uitnodigingen, menukaarten, tafelnummers en een 'Map of Us' — helemaal op maat van uw verhaal en uw locatie.",
+            text: "Bespoke uitnodigingen, menukaarten, tafelnummers en een 'Map of Us', helemaal op maat van uw verhaal en uw locatie.",
             link: "Ontdek het drukwerk",
             img: "/foto/menu-table.webp",
             alt: "Getekende menukaart op een gedekte huwelijkstafel",
@@ -107,7 +107,7 @@ export const copy = {
         title: "Het mooiste cadeau is er één",
         titleItalic: "dat uw gasten zien ontstaan.",
         body: "Terwijl het aperitief wordt geschonken, groeit er iets op mijn tekentafel. Gasten komen kijken, wijzen zichzelf aan, blijven hangen. Aan het einde van de avond neemt u geen dienst mee naar huis, maar een origineel.",
-        body2: "Ik werk in aquarel — warm, licht en persoonlijk. Ik teken het koppel, de locatie of de gasten, afhankelijk van wat uw dag nodig heeft.",
+        body2: "Ik werk in aquarel: warm, licht en persoonlijk. Ik teken het koppel, de locatie of de gasten, afhankelijk van wat uw dag nodig heeft.",
         points: [
           "Ter plaatse getekend, in aquarel",
           "Portretten voor uw gasten om mee te nemen",
@@ -168,7 +168,7 @@ export const copy = {
         eyebrow: "Over Eve",
         title: "Aangenaam, ik ben Evelien",
         body: "Vanuit mijn studio in Sint-Pauwels teken ik dagen die mensen niet willen vergeten. Wat begon met kaartjes voor vrienden groeide uit tot live illustratie op huwelijken door heel België en daarbuiten.",
-        body2: "Ik werk graag persoonlijk en in kleine aantallen — zodat elk beeld écht over die ene dag gaat.",
+        body2: "Ik werk graag persoonlijk en in kleine aantallen, zodat elk beeld écht over die ene dag gaat.",
         cta: "Lees mijn verhaal",
         img: "/foto/eve-portrait.webp",
         imgAlt: "Portret van Evelien De Smet",
@@ -205,7 +205,7 @@ export const copy = {
         ctaPrimary: "Bekijk toepassingen",
         ctaHref: "#aanbod",
         ctaSecondary: "Offerte aanvragen",
-        caption: "Getekend ter plaatse — met uw huisstijl op elk exemplaar",
+        caption: "Getekend ter plaatse, met uw huisstijl op elk exemplaar",
         img: "/foto/biz-setup.webp",
         imgAlt: "Evelien tekent live tijdens een bedrijfsevent",
       },
@@ -226,7 +226,7 @@ export const copy = {
           {
             n: "02",
             title: "Events & lanceringen",
-            text: "Bij een productlancering of klantenevent geeft live illustratie uw avond een tastbaar hoogtepunt — en levert het meteen social content op.",
+            text: "Bij een productlancering of klantenevent geeft live illustratie uw avond een tastbaar hoogtepunt, en levert het meteen social content op.",
             link: "Vraag een voorstel",
             img: "/foto/biz-drawing.webp",
             alt: "Evelien tekent een portret tijdens een avondevent",
@@ -245,7 +245,7 @@ export const copy = {
         eyebrow: "Waarom het werkt",
         title: "Mensen bewaren geen flyer.",
         titleItalic: "Een portret van zichzelf wel.",
-        body: "De gemiddelde beursgadget overleeft de terugreis niet. Een tekening van de bezoeker zelf, gemaakt terwijl die toekijkt, is persoonlijk — en daardoor onweggooibaar. Uw merk staat eronder en blijft maandenlang zichtbaar.",
+        body: "De gemiddelde beursgadget overleeft de terugreis niet. Een tekening van de bezoeker zelf, gemaakt terwijl die toekijkt, is persoonlijk, en daardoor onweggooibaar. Uw merk staat eronder en blijft maandenlang zichtbaar.",
         body2: "Bovendien creëert het tekenen zelf een aanleiding tot gesprek. Bezoekers blijven vijf tot tien minuten staan, en dat is precies de tijd die uw team nodig heeft.",
         points: [
           "Uw logo en huisstijl op elk exemplaar",
@@ -299,7 +299,7 @@ export const copy = {
       about: {
         eyebrow: "Over Eve",
         title: "Aangenaam, ik ben Evelien",
-        body: "Vanuit mijn studio in Sint-Pauwels teken ik live op events door heel België en daarbuiten. Ik werk in aquarel — herkenbaar, warm en ver van de standaard eventanimatie.",
+        body: "Vanuit mijn studio in Sint-Pauwels teken ik live op events door heel België en daarbuiten. Ik werk in aquarel: herkenbaar, warm en ver van de standaard eventanimatie.",
         body2: "U krijgt één aanspreekpunt, een verzorgde opstelling die bij uw merk past en een afspraak die nagekomen wordt.",
         cta: "Lees mijn verhaal",
         img: "/foto/eve-studio.webp",
@@ -376,7 +376,7 @@ export const copy = {
         ctaPrimary: "See my work",
         ctaHref: "#werk",
         ctaSecondary: "Book an intro call",
-        caption: "Live illustration on location — each portrait in a handful of minutes",
+        caption: "Live illustration on location, each portrait in a handful of minutes",
         img: "/foto/hero-eve.webp",
         imgAlt: "Evelien drawing live watercolour portraits at her table",
       },
@@ -384,7 +384,7 @@ export const copy = {
       services: {
         eyebrow: "The offer",
         title: "Three ways to work together",
-        lead: "From an illustrator at your party to stationery that sets the tone — all by the same hand, with the same care.",
+        lead: "From an illustrator at your party to stationery that sets the tone. All by the same hand, with the same care.",
         items: [
           {
             n: "01",
@@ -397,7 +397,7 @@ export const copy = {
           {
             n: "02",
             title: "Wedding stationery",
-            text: "Bespoke invitations, menu cards, table numbers and a 'Map of Us' — entirely shaped around your story and your venue.",
+            text: "Bespoke invitations, menu cards, table numbers and a 'Map of Us', entirely shaped around your story and your venue.",
             link: "Discover the stationery",
             img: "/foto/menu-table.webp",
             alt: "Illustrated menu card on a laid wedding table",
@@ -416,7 +416,7 @@ export const copy = {
         eyebrow: "Live illustration",
         title: "The finest gift is the one",
         titleItalic: "your guests watch being made.",
-        body: "While the drinks are poured, something grows on my drawing table. Guests come over, point themselves out, linger. At the end of the night you don't take home a service — you take home an original.",
+        body: "While the drinks are poured, something grows on my drawing table. Guests come over, point themselves out, linger. At the end of the night you don't take home a service. You take home an original.",
         body2: "I work in watercolour: warm, light and personal. I draw the couple, the venue or the guests, depending on what your day needs.",
         points: [
           "Drawn on site, in watercolour",
@@ -478,7 +478,7 @@ export const copy = {
         eyebrow: "About Eve",
         title: "Nice to meet you, I'm Evelien",
         body: "From my studio in Sint-Pauwels I draw days people don't want to forget. What started as cards for friends grew into live illustration at weddings across Belgium and beyond.",
-        body2: "I like to work personally and in small numbers — so every image is truly about that one day.",
+        body2: "I like to work personally and in small numbers, so every image is truly about that one day.",
         cta: "Read my story",
         img: "/foto/eve-portrait.webp",
         imgAlt: "Portrait of Evelien De Smet",
@@ -515,7 +515,7 @@ export const copy = {
         ctaPrimary: "See applications",
         ctaHref: "#aanbod",
         ctaSecondary: "Request a quote",
-        caption: "Drawn on site — carrying your brand on every piece",
+        caption: "Drawn on site, carrying your brand on every piece",
         img: "/foto/biz-setup.webp",
         imgAlt: "Evelien drawing live during a corporate event",
       },
@@ -536,7 +536,7 @@ export const copy = {
           {
             n: "02",
             title: "Events & launches",
-            text: "At a product launch or client event, live illustration gives your evening a tangible highlight — and produces social content along the way.",
+            text: "At a product launch or client event, live illustration gives your evening a tangible highlight, and produces social content along the way.",
             link: "Request a proposal",
             img: "/foto/biz-drawing.webp",
             alt: "Evelien drawing a portrait during an evening event",
@@ -555,7 +555,7 @@ export const copy = {
         eyebrow: "Why it works",
         title: "Nobody keeps a flyer.",
         titleItalic: "A portrait of themselves, they do.",
-        body: "The average trade-fair gadget doesn't survive the trip home. A drawing of the visitor, made while they watch, is personal — and therefore impossible to throw away. Your brand sits underneath it and stays visible for months.",
+        body: "The average trade-fair gadget doesn't survive the trip home. A drawing of the visitor, made while they watch, is personal, and therefore impossible to throw away. Your brand sits underneath it and stays visible for months.",
         body2: "The drawing itself also creates a reason to talk. Visitors stay for five to ten minutes, and that is exactly the time your team needs.",
         points: [
           "Your logo and brand style on every piece",
@@ -609,7 +609,7 @@ export const copy = {
       about: {
         eyebrow: "About Eve",
         title: "Nice to meet you, I'm Evelien",
-        body: "From my studio in Sint-Pauwels I draw live at events across Belgium and beyond. I work in watercolour — recognisable, warm and a long way from standard event entertainment.",
+        body: "From my studio in Sint-Pauwels I draw live at events across Belgium and beyond. I work in watercolour: recognisable, warm and a long way from standard event entertainment.",
         body2: "You get one point of contact, a polished set-up that matches your brand, and an agreement that is kept.",
         cta: "Read my story",
         img: "/foto/eve-studio.webp",
