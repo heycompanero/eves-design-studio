@@ -1,5 +1,6 @@
 import { copy } from "@/lib/i18n";
 import Reveal from "./Reveal";
+import { asset } from "@/lib/asset";
 
 type ShopCopy = (typeof copy)["nl"]["wedding"]["shop"];
 
@@ -43,7 +44,7 @@ export default function Shop({ c }: { c: ShopCopy }) {
                 }`}
               >
                 <img
-                  src={card.img}
+                  src={asset(card.img)}
                   alt=""
                   aria-hidden="true"
                   loading="lazy"

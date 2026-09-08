@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useLang, type Audience, type PageCopy } from "@/lib/i18n";
+import { asset } from "@/lib/asset";
 
 export default function Footer({
   audience,
@@ -27,7 +28,7 @@ export default function Footer({
               {t.common.tagline}
             </p>
             <img
-              src="/illustraties/lemons.webp"
+              src={asset("/illustraties/lemons.webp")}
               alt=""
               aria-hidden="true"
               className="mt-8 w-16"

@@ -1,5 +1,6 @@
 import type { PageCopy } from "@/lib/i18n";
 import Reveal from "./Reveal";
+import { asset } from "@/lib/asset";
 
 export default function About({ c }: { c: PageCopy }) {
   const a = c.about;
@@ -11,14 +12,14 @@ export default function About({ c }: { c: PageCopy }) {
           <div className="relative mx-auto w-full max-w-[360px]">
             <div className="aspect-[4/5] overflow-hidden rounded-t-full border border-choco/10 bg-nude">
               <img
-                src={a.img}
+                src={asset(a.img)}
                 alt={a.imgAlt}
                 loading="lazy"
                 className="h-full w-full object-cover"
               />
             </div>
             <img
-              src={c.ornaments.about}
+              src={asset(c.ornaments.about)}
               alt=""
               aria-hidden="true"
               className="absolute -bottom-6 -right-4 w-[24%] max-w-[96px] animate-float"

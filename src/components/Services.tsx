@@ -1,5 +1,6 @@
 import type { PageCopy } from "@/lib/i18n";
 import Reveal from "./Reveal";
+import { asset } from "@/lib/asset";
 
 export default function Services({ c }: { c: PageCopy }) {
   const s = c.services;
@@ -24,7 +25,7 @@ export default function Services({ c }: { c: PageCopy }) {
             <article className="group flex h-full flex-col">
               <div className="relative aspect-[4/5] overflow-hidden rounded-[1.75rem] bg-nude/55">
                 <img
-                  src={item.img}
+                  src={asset(item.img)}
                   alt={item.alt}
                   loading="lazy"
                   className="h-full w-full object-cover transition-transform duration-[900ms] ease-out group-hover:scale-[1.05]"

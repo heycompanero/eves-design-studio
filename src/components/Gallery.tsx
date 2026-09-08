@@ -1,5 +1,6 @@
 import type { PageCopy } from "@/lib/i18n";
 import Reveal from "./Reveal";
+import { asset } from "@/lib/asset";
 
 export default function Gallery({ c }: { c: PageCopy }) {
   const g = c.gallery;
@@ -28,7 +29,7 @@ export default function Gallery({ c }: { c: PageCopy }) {
           <Reveal key={s.src} delay={(i % 3) * 100} className={s.span}>
             <div className={`group ${s.ratio} overflow-hidden rounded-[1.5rem] bg-nude`}>
               <img
-                src={s.src}
+                src={asset(s.src)}
                 alt=""
                 aria-hidden="true"
                 loading="lazy"

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useLang } from "@/lib/i18n";
+import { asset } from "@/lib/asset";
 
 export default function Choice() {
   const { t, lang, setLang } = useLang();
@@ -56,7 +57,7 @@ export default function Choice() {
               }`}
             >
               <img
-                src={p.img}
+                src={asset(p.img)}
                 alt=""
                 aria-hidden="true"
                 className={`absolute inset-0 h-full w-full object-cover transition-all duration-[1200ms] ease-out ${

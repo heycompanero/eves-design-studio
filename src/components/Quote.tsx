@@ -1,5 +1,6 @@
 import type { PageCopy } from "@/lib/i18n";
 import Reveal from "./Reveal";
+import { asset } from "@/lib/asset";
 
 export default function Quote({ c }: { c: PageCopy }) {
   const q = c.quote;
@@ -9,7 +10,7 @@ export default function Quote({ c }: { c: PageCopy }) {
       <Reveal>
         <figure className="relative mx-auto max-w-3xl rounded-[2rem] bg-nude/55 px-8 py-16 text-center md:px-16 md:py-20">
           <img
-            src={c.ornaments.quote}
+            src={asset(c.ornaments.quote)}
             alt=""
             aria-hidden="true"
             className="absolute -top-10 left-1/2 w-20 -translate-x-1/2"

@@ -1,4 +1,5 @@
 import type { PageCopy } from "@/lib/i18n";
+import { asset } from "@/lib/asset";
 
 export default function Hero({ c }: { c: PageCopy }) {
   const h = c.hero;
@@ -32,7 +33,7 @@ export default function Hero({ c }: { c: PageCopy }) {
         <div className="relative animate-fade-up [animation-delay:220ms]">
           <div className="relative mx-auto aspect-[4/5] w-full max-w-[440px] overflow-hidden rounded-t-full border border-choco/10 bg-nude">
             <img
-              src={h.img}
+              src={asset(h.img)}
               alt={h.imgAlt}
               className="h-full w-full object-cover"
               loading="eager"
@@ -40,14 +41,14 @@ export default function Hero({ c }: { c: PageCopy }) {
           </div>
 
           <img
-            src={c.ornaments.heroMain}
+            src={asset(c.ornaments.heroMain)}
             alt=""
             aria-hidden="true"
             className="absolute -bottom-12 left-0 w-[34%] max-w-[168px] drop-shadow-[0_18px_28px_rgba(108,53,35,0.14)] sm:-left-10 lg:-left-16"
           />
 
           <img
-            src={c.ornaments.heroFloat}
+            src={asset(c.ornaments.heroFloat)}
             alt=""
             aria-hidden="true"
             className="absolute -right-2 top-6 max-h-[150px] w-auto max-w-[22%] animate-float lg:-right-8"
