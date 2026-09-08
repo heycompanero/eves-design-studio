@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-creme font-body text-choco antialiased;
+  }
+  ::selection {
+    @apply bg-perzik text-choco;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-body text-[0.68rem] font-medium uppercase tracking-widest2 text-choco-soft;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-terracotta px-8 py-4 font-body text-[0.7rem] font-medium uppercase tracking-widest2 text-white transition-all duration-300 hover:bg-choco;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-choco/25 px-8 py-4 font-body text-[0.7rem] font-medium uppercase tracking-widest2 text-choco transition-all duration-300 hover:border-choco hover:bg-choco hover:text-creme;
+  }
+  .rule {
+    @apply h-px w-full bg-choco/10;
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  * {
+    animation-duration: 0.001ms !important;
+  }
+}
