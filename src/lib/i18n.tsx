@@ -63,6 +63,16 @@ export const copy = {
         imgAlt: "Evelien tekent live aquarelportretten aan haar tekentafel",
       },
       strip: ["Huwelijken", "België & buitenland", "Bespoke drukwerk", "Aquarel"],
+      videos: {
+        eyebrow: "Beeld van de avond",
+        title: "Zo ziet live illustratie eruit",
+      },
+      reactions: {
+        eyebrow: "Het moment",
+        title: "Het gezicht van iemand die",
+        titleItalic: "zichzelf getekend ziet.",
+        lead: "Geen enkel cadeau krijgt deze reactie. Gasten blijven wachten, kijken toe hoe het ontstaat en gaan lachend weg met hun eigen portret in de hand.",
+      },
       services: {
         eyebrow: "Het aanbod",
         title: "Drie manieren om samen te werken",
@@ -194,6 +204,16 @@ export const copy = {
         imgAlt: "Evelien tekent live tijdens een bedrijfsevent",
       },
       strip: ["Beurzen", "Productlanceringen", "Personeelsfeesten", "Klantenevents"],
+      videos: {
+        eyebrow: "Beeld van een event",
+        title: "Zo ziet het er op locatie uit",
+      },
+      reactions: {
+        eyebrow: "Het resultaat",
+        title: "Wat bezoekers meenemen",
+        titleItalic: "naar hun bureau.",
+        lead: "Een getekend portret op naam, met uw merk eronder. Dat belandt niet in een lade maar op een bureau, en blijft daar maandenlang staan.",
+      },
       services: {
         eyebrow: "Toepassingen",
         title: "Waar live illustratie het verschil maakt",
@@ -357,6 +377,16 @@ export const copy = {
         imgAlt: "Evelien drawing live watercolour portraits at her table",
       },
       strip: ["Weddings", "Belgium & abroad", "Bespoke stationery", "Watercolour"],
+      videos: {
+        eyebrow: "The evening in motion",
+        title: "This is what live illustration looks like",
+      },
+      reactions: {
+        eyebrow: "The moment",
+        title: "The face of someone seeing",
+        titleItalic: "themselves drawn.",
+        lead: "No gift gets this reaction. Guests wait, watch it appear, and walk away laughing with their own portrait in hand.",
+      },
       services: {
         eyebrow: "The offer",
         title: "Three ways to work together",
@@ -488,6 +518,16 @@ export const copy = {
         imgAlt: "Evelien drawing live during a corporate event",
       },
       strip: ["Trade fairs", "Product launches", "Staff parties", "Client events"],
+      videos: {
+        eyebrow: "On location",
+        title: "This is what it looks like on site",
+      },
+      reactions: {
+        eyebrow: "The result",
+        title: "What visitors carry back",
+        titleItalic: "to their desk.",
+        lead: "A drawn portrait with their name on it and your brand underneath. It doesn't end up in a drawer — it stays on a desk for months.",
+      },
       services: {
         eyebrow: "Applications",
         title: "Where live illustration makes the difference",

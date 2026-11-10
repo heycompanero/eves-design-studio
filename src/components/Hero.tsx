@@ -1,8 +1,18 @@
 import type { PageCopy } from "@/lib/i18n";
 import { asset } from "@/lib/asset";
 import type { Ornaments } from "@/lib/ornaments";
+import type { Clip } from "@/lib/clips";
+import AutoVideo from "./AutoVideo";
 
-export default function Hero({ c, orn }: { c: PageCopy; orn: Ornaments }) {
+export default function Hero({
+  c,
+  orn,
+  clip,
+}: {
+  c: PageCopy;
+  orn: Ornaments;
+  clip: Clip;
+}) {
   const h = c.hero;
 
   return (
@@ -33,12 +43,20 @@ export default function Hero({ c, orn }: { c: PageCopy; orn: Ornaments }) {
 
         <div className="relative animate-fade-up [animation-delay:220ms]">
           <div className="relative mx-auto aspect-[4/5] w-full max-w-[440px] overflow-hidden rounded-t-full border border-choco/10 bg-nude">
-            <img
-              src={asset(h.img)}
-              alt={h.imgAlt}
+            <AutoVideo
+              clip={clip}
+              eager
               className="h-full w-full object-cover"
-              loading="eager"
             />
+            <span className="absolute left-5 top-8 z-10 flex items-center gap-2 rounded-full bg-choco/55 px-3 py-1.5 backdrop-blur-sm">
+              <span className="relative flex h-1.5 w-1.5">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-perzik opacity-80" />
+                <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-perzik" />
+              </span>
+              <span className="font-body text-[0.52rem] uppercase tracking-widest2 text-creme">
+                Live
+              </span>
+            </span>
           </div>
 
           <img
