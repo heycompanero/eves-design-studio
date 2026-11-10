@@ -48,7 +48,8 @@ export default function Hero({
               eager
               className="h-full w-full object-cover"
             />
-            <span className="absolute left-5 top-8 z-10 flex items-center gap-2 rounded-full bg-choco/55 px-3 py-1.5 backdrop-blur-sm">
+            {/* sits low in the arch: the rounded top corners would clip it */}
+            <span className="absolute bottom-5 left-5 z-10 flex items-center gap-2 rounded-full bg-choco/55 px-3 py-1.5 backdrop-blur-sm">
               <span className="relative flex h-1.5 w-1.5">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-perzik opacity-80" />
                 <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-perzik" />
